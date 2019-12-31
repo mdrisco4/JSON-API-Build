@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
         <div>
-          <h3 className="header">the</h3>
+          <h3 className="header">Movie API</h3>
           <main>
           <Route path="" component="" />
           </main>
