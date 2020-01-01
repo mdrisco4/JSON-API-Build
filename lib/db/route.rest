@@ -1,1 +1,16 @@
 GET http://localhost:8080/movies
+
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+    "genres" = { id: 28, name: 'Action' },
+             { id: 53, name: 'Thriller' },
+             { id: 80, name: 'Crime' },
+    "title" = 'Judgment Night',
+    "description" = 'While racing to a boxing match, Frank, Mike, John and Rey get more than they bargained for. A wrong turn lands them directly in the path of Fallon, a vicious, wise-cracking drug lord. After accidentally witnessing Fallon murder a disloyal henchman, the four become his unwilling prey in a savage game of cat & mouse as they are mercilessly stalked through the urban jungle in this taut suspense drama',
+    "releaseDate" = '1993-10-15',
+    "boxOfficeReturn" = 12136938,
+    "runtime" = 110,
+    "tagline" = "Don't move. Don't whisper. Don't even breathe."
+}
